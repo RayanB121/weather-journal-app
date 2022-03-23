@@ -1,10 +1,10 @@
 /* Global Variables */
 const apiUrl="https://api.openweathermap.org/data/2.5/weather?"
 // Personal API Key for OpenWeatherMap API
-const apiKey = '90160bf407f1cfbe44fa0263fcab8718';
+const apiKey = '90160bf407f1cfbe44fa0263fcab8718&units=imperial';
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
+let newDate = d.getMonth()+1+'.'+ d.getDate()+'.'+ d.getFullYear();
 console.log(newDate);
 
 // Generate Button
